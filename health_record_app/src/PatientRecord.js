@@ -1,0 +1,2 @@
+// This is the button for sending an email to the patient's parents
+<Button onClick={() => sendEmail(patient.contactInfo.parentEmail, 'Patient Record', 'Hello, this is a message regarding your child's health record.')}>Email Parent</Button>
